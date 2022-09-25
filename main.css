@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,600,700,800,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Maven Pro", sans-serif;
+}
+.wrapper {
+  height: 100vh;
+}
+.myColor {
+    background-color: #0d154a;
+    background-image: linear-gradient(43deg, #0d154a 0%, #5781a9 71%, #47d6d0 100%);
+    
+}
+.myShadow {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.myBtn {
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #0acffe 0%, #495aff 100%);
+  border: none;
+}
+.myBtn2 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border: none;
+}
+.myBtn:hover {
+  background-image: linear-gradient(to right, #495aff 0%, #0acffe 100%);
+}
+.myHr {
+  height: 2px;
+  border-radius: 100px;
+}
+.myLinkBtn {
+  border-radius: 100px;
+  width: 50%;
+  border: 2px solid #fff;
+}
+@media (max-width: 720px) {
+  .wrapper {
+    margin: 2px;
+  }
+}
+.mainBody {
+    background-image: url('/entaktech/uploads/products/dstvNow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
+.admin-nav{
+  width: 220px;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color:#343a40;
+  transition: o.3s all ease-in-out;
+}
+
+.admin-link{
+  background-color: #343a40;
+}
+
+.admin-link:hover, .nav-active{
+  background-color: #212529;
+  text-decoration: none;
+}
+
+.animate{
+  width: 0px;
+  transition: o.3s all ease-in-out;
+}
