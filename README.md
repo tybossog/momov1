@@ -1,7 +1,7 @@
 # momov1
 description: facilitate momo payment collection
 
-Hello Mr. Joshua this repository contains the main 2 files you shall be working with the payment form template already created.
+Hello Mr. Joshua this repository contains the main 2 files you shall be working with the payment form template already created (you can fork the project or create a pull request).
 
 The payment-form.php contains the payload required to process the transaction (price, account number ...)
 
